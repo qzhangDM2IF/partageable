@@ -4,7 +4,7 @@
 
 #include "composant1.h"
 #include "composant2.h"
-//#include "composant3.h"
+#include "Composant3.h"
 
 int main(int argc, char * argv)
 {
@@ -18,10 +18,11 @@ int main(int argc, char * argv)
 	valeur1=composant1(data1,data2);
 
 	valeur2=composant2(data1,data2);
-	valeur3=composant2(data1,data2);
+	valeur3=composant3(data1,data2);
 
 	std::cout << getComposant1Version() << std::endl;
 	std::cout << getComposant2Version() << std::endl;
+	std::cout << getComposant3Version() << std::endl;
 	std::cout << "valeur 1 :" << valeur1 << " valeur 2 :" << valeur2 <<" valeur 3 :" << valeur3 << std::endl;
 	Sleep(1000);
 	system("pause");
