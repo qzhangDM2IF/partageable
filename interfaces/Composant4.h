@@ -3,9 +3,9 @@
 #define COMPOSANT4_H
 
 #ifdef COMPOSANT4_EXPORTS
-	#define COMPOSANT4_INTERFACE __declspec(dllexport)
+	#define COMPOSANT1_INTERFACE __declspec(dllexport)
 #else
-	#define COMPOSANT4_INTERFACE __declspec(dllimport)
+	#define COMPOSANT1_INTERFACE __declspec(dllimport)
 #endif
 
 
