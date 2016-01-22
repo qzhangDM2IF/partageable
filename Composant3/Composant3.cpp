@@ -18,5 +18,5 @@ int additionCompos3(int a1, int a2)
 
 char * getComposant3Version()
 {
-	return "Composant 3 version " COMPOSANT_VERSION_STR;
+	return " Composant 3 version " COMPOSANT_VERSION_STR;
 }

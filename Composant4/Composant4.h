@@ -15,3 +15,4 @@ COMPOSANT1_INTERFACE int composant4(int p1, int p2);
 
 COMPOSANT1_INTERFACE char * getComposant4Version(void);
 #endif
+
